@@ -273,7 +273,7 @@ Translations of the guide are available in the following languages:
   literals. Whichever one you pick&mdash;apply it consistently.
 
   ```ruby
-  # good - space after { and before }
+  # good - space after { and before } (Sumatosoft)
   { one: 1, two: 2 }
 
   # good - no space after { and before }
@@ -388,7 +388,7 @@ Translations of the guide are available in the following languages:
              calc_something_else
            end
 
-  # good (and a bit more width efficient)
+  # good (and a bit more width efficient) (Sumatosoft)
   kind =
     case year
     when 1850..1889 then 'Blues'
@@ -587,7 +587,7 @@ Translations of the guide are available in the following languages:
 
   * **(Option B)** When continuing a chained method invocation on another line,
     include the `.` on the first line to indicate that the
-    expression continues.
+    expression continues. (Sumatosoft)
 
     ```ruby
     # bad - need to read ahead to the second line to know that the chain continues
@@ -632,7 +632,7 @@ Translations of the guide are available in the following languages:
                    body: source.text)
   end
 
-  # good (normal indent)
+  # good (normal indent) (Sumatosoft)
   def send_mail(source)
     Mailer.deliver(
       to: 'bob@example.com',
@@ -652,7 +652,7 @@ Translations of the guide are available in the following languages:
   menu_item = %w[Spam Spam Spam Spam Spam Spam Spam Spam
     Baked beans Spam Spam Spam Spam Spam]
 
-  # good
+  # good (Sumatosoft)
   menu_item = %w[
     Spam Spam Spam Spam Spam Spam Spam Spam
     Baked beans Spam Spam Spam Spam Spam
@@ -702,9 +702,9 @@ Translations of the guide are available in the following languages:
     Use [YARD][yard] and its conventions for API documentation.
 <sup>[[link](#api-documentation)]</sup>
 
-* <a name="80-character-limits"></a>
-  Limit lines to 80 characters.
-<sup>[[link](#80-character-limits)]</sup>
+* <a name="120-character-limits"></a>
+  Limit lines to <strike>80</strike> 120 characters. (Sumatosoft)
+<sup>[[link](#120-character-limits)]</sup>
 
 * <a name="no-trailing-whitespace"></a>
   Avoid trailing whitespace.
@@ -1565,7 +1565,7 @@ condition](#safe-assignment-in-condition).
     # some code
   end
 
-  # good
+  # good (Sumatosoft)
   v = array.grep(/foo/)
   if v
     do_something(v)
